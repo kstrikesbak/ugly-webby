@@ -44,18 +44,20 @@ li:last-child {
     border: chocolate;
 }
 
-form {
+input, form {
     height:500px;
     width:600px;
     margin:auto;
-    border:6px #CCC solid;
-    padding:400px;
+    border:100px #CCC solid;
+    padding:1000px;
     background-image: url("https://media.giphy.com/media/KxWMkAkGzJjs3joCSW/giphy.gif");
+    color: red;
 }
     
-input, textarea {
+textarea {
     padding:100px;
-    margin:50px
+    margin:50px;
+    background-color: red;
 }
 
 body {
