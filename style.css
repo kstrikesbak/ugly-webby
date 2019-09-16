@@ -41,7 +41,7 @@ li {
 }
 
 li:last-child {
-    border: none;
+    border: chocolate;
 }
 
 form {
