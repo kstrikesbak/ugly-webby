@@ -1,18 +1,19 @@
 h1 {
-    color: #111;
-    font-family: 'Helvetica Neue', sans-serif;
+    color: chocolate;
+    font-family: 'Lobster', cursive;
     font-size: 275px;
     font-weight: bold;
     letter-spacing: -1px;
     line-height: 1;
     text-align: center;
+    
 }
 
 p {
-    color: #685206;
-    font-family: 'Helvetica Neue', sans-serif;
-    font-size: 14px;
-    line-height: 24px;
+    color: blueviolet;
+    font-family: 'Herr Von Muellerhoff', cursive;
+    font-size: 300px;
+    line-height: 200px;
     margin: 0 0 24px;
     text-align: justify;
     text-justify: inter-word;
@@ -30,23 +31,37 @@ ul, ol {
 }
 
 li {
-    font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
-    border-bottom: 1px solid #ccc;
+    font-family: 'Lobster Two', cursive;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    border-bottom: 5px solid #ccc;
+    background-image: url(https://media.giphy.com/media/tfwj5xK0G7fTa/giphy.gif);
+    height: 300px;
 }
-   
+
 li:last-child {
     border: none;
 }
 
 form {
-    height:110px;
-    width:190px;
+    height:500px;
+    width:600px;
     margin:auto;
-    border:1px #CCC solid;
-    padding:10px;
+    border:6px #CCC solid;
+    padding:400px;
 }
     
 input, textarea {
-    padding:5px;
-    margin:5px
+    padding:100px;
+    margin:50px
+}
+
+body {
+    background-image: url(https://media.giphy.com/media/ZeU05VjRJgFe8/giphy.gif);
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-color: darkmagenta;
+
 }
